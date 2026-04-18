@@ -1,2 +1,27 @@
 
 /* Your CSS Code here. */
+/* Apply border to all tables */
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Main table spacing */
+.main-table {
+    margin: 30px auto;
+}
+
+/* Black background cell */
+.black-cell {
+    background-color: black;
+    color: white;
+}
+
+/* Style list */
+ul {
+    margin: 0;
+    padding: 10px;
+    text-align: left;
+}
